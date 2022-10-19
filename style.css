@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px){
+    .navbar{
+        height: 400px;
+        border: black 2px solid;
+    }
+    .navbar .items{
+        height: 60%;
+        color: silver;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom:5%;
+    }
+    
+}
+
+@media screen and (min-width: 769px){
+    .navbar{
+        height: 100px
+    }
+    .navbar .items{
+        height: 60%;
+        color: silver;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .items #item{
+        margin: 20px;
+    }
+    
+}
